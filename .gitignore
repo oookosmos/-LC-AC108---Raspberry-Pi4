@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local Vosk models and downloaded archives
+models/
+*.zip
+*.tar
+*.tar.gz
+
+# Audio captures and raw streams
+*.wav
+*.raw
+*.pcm
+
+# Logs and local environment
+*.log
+.env
+.env.*
+!.env.example
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Compiled kernel modules and build products
+*.ko
+*.o
+*.mod
+*.mod.c
+*.symvers
+Module.symvers
+modules.order
